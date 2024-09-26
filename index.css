@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    color: white;
+
+}
+header{
+    height: 10vh;
+    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2vw;
+}
+header>.part2>ul{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+header>.part2>ul li{
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+header .part1 img{
+    height:60px;
+}
+.part3 button{
+ padding: 15px 20px;
+ text-transform: uppercase;
+ font-weight: 600;
+}
+#btn1{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    /* border: 1px solid #fff; */
+}
+
+.main-2{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height:85vh;
+    position: relative;
+    /* padding: 0 50px; */
+}
+.Image1{
+    height:60vh;
+    width:20%;
+    position: absolute;
+    left:1%;
+    top: 2%;
+}
+.Image2{
+    width:20%;
+    height:60vh;
+    position: absolute;
+    right: 1%;
+    bottom:8%;
+}
+.Image1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.Image2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius:10px ;
+}
+
+
+.about h1 {
+    text-align: center;
+   font-size:7vw;
+   text-transform: uppercase;
+
+}
+.about h1 span{
+    background-color: brown;
+    border-radius: 50px;
+    font-size:3vw;
+    padding:15px 20px;
+}
+ h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.Scroll {
+    background-color: orangered;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.scroll-down {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+footer{
+    width: 60%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2vw;
+}
+.icons i{
+    font-size: 25px;
+}
+h4{
+    color:white;
+    font-size:30px ;
+    font-weight: lighter;
+}
+
+
+    
+
+
+
